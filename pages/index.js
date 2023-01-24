@@ -28,7 +28,7 @@ export default function Home() {
       <main className="bg-white px-10 md:px-20 lg:px-40 dark:bg-gray-900">
         <section className="min-h-screen">
           <nav className="py-10 mb-12 flex justify-between ">
-            <h1 className="text-xl font-burtons dark:bg-white">Carlo Cortez's Portfolio</h1>
+            <h1 className="text-xl font-burtons dark:bg-white">My Portfolio</h1>
             <ul className="flex items-center">
               <li>
                 <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)}
@@ -40,7 +40,7 @@ export default function Home() {
             </ul>
           </nav>
           <div className='text-center p-10'>
-            <h2 className="text-5xl py-2 text-blue-500 font-medium md:text-6xl"> Carlo Cortez</h2>
+            <h2 className="text-5xl py-2 text-blue-500 font-medium md:text-6xl"> Hi! I am Carlo Cortez</h2>
             <h3 className='text-2xl py-2 md:text-3xl'> Developer and designer</h3>
             <p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto'> Student creating projects related to programming and UI design</p>
           </div>
@@ -58,7 +58,7 @@ export default function Home() {
           <div>
             <h3 className="text-3xl py-1">Services I offer</h3>
             <p className='text-md py-2 leading-8 text-gray-800'>
-              Since the beginning of my journey as a student developer, I've done multiple projects related to
+              Since the beginning of my journey as a student developer, I have done multiple projects related to
               <span className='text-blue-500'> web development</span>  and <span className='text-blue-500'>UX Design</span> 
             </p>
           </div>
