@@ -15,6 +15,10 @@ import web5 from "../public/web5.png";
 import web6 from "../public/web6.png";
 import proj1 from "../public/proj1.jpeg";
 import proj2 from "../public/proj2.png";
+import proj3 from "../public/proj3.png";
+import proj4 from "../public/proj4.jpeg";
+import proj5 from "../public/proj5.jpeg";
+import proj6 from "../public/proj6.png";
 import {useState} from "react"
 
 export default function Home() {
@@ -31,7 +35,7 @@ export default function Home() {
       <main className="bg-white px-10 md:px-20 lg:px-40 dark:bg-gray-900">
         <section className="min-h-screen">
           <nav className="py-10 mb-12 flex justify-between ">
-            <h1 className="text-xl font-burtons dark:bg-white">My Portfolio</h1>
+            <h1 className="text-xl font-burtons dark:text-white">My Portfolio</h1>
             <ul className="flex items-center">
               <li>
                 <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)}
@@ -42,14 +46,17 @@ export default function Home() {
               </li>
             </ul>
           </nav>
-          <div className='text-center p-10'>
+          <div className='text-center p-10 dark:text-white'>
             <h2 className="text-5xl py-2 text-blue-500 font-medium md:text-6xl"> Hi! I am Carlo Cortez</h2>
             <h3 className='text-2xl py-2 md:text-3xl'> Developer and designer</h3>
-            <p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto'> Student creating projects related to programming and UI design</p>
+            <p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto dark:text-white'> A student that creates projects related to programming and UI design</p>
           </div>
           <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600'>
-            <AiFillTwitterCircle />
-            <AiFillLinkedin />
+            <AiFillTwitterCircle  />
+            
+            <a href="https://www.linkedin.com/in/carlo-miguel-cortez-27454a1a7/">
+             <AiFillLinkedin>  </AiFillLinkedin>
+            </a>
             <AiFillYoutube />
           </div>
           <div className='relative mx-auto bg-gradient-to-b from-blue-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96'>
@@ -57,10 +64,10 @@ export default function Home() {
           </div>
         </section>
         
-        <section>
+        <section className='dark:text-white'>
           <div>
             <h3 className="text-3xl py-1">Services I offer</h3>
-            <p className='text-md py-2 leading-8 text-gray-800'>
+            <p className='text-md py-2 leading-8 text-gray-800 dark:text-white'>
               Since the beginning of my journey as a student developer, I have done multiple projects related to
               <span className='text-blue-500'> web development</span>  and <span className='text-blue-500'>UX Design</span> 
             </p>
@@ -95,18 +102,18 @@ export default function Home() {
         </section>
         <section>
           <div>
-            <h3 className='text-3xl py-1'> Portfolio </h3>
-            <p className='text-md py-2 leading-8 text-gray-800'>
+            <h3 className='text-3xl py-1 dark:text-white'> Portfolio </h3>
+            <p className='text-md py-2 leading-8 text-gray-800 dark:text-white'>
              Here are some projects that I have worked on over the past few years
             </p>
           </div>
           <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
             <div className='basis-1/3 flex-1'><Image src={proj1} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive"/></div>
             <div className='basis-1/3 flex-1'><Image src={proj2} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive"/></div>
-            <div className='basis-1/3 flex-1'><Image src={web3} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive"/></div>
-            <div className='basis-1/3 flex-1'><Image src={web4} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive"/></div>
-            <div className='basis-1/3 flex-1'><Image src={web5} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive"/></div>
-            <div className='basis-1/3 flex-1'><Image src={web6} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive"/></div>
+            <div className='basis-1/3 flex-1'><Image src={proj3} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive"/></div>
+            <div className='basis-1/3 flex-1'><Image src={proj4} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive"/></div>
+            <div className='basis-1/3 flex-1'><Image src={proj5} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive"/></div>
+            <div className='basis-1/3 flex-1'><Image src={proj6} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive"/></div>
           </div>
         </section>
       </main>
