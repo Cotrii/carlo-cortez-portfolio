@@ -3,6 +3,7 @@ import {BsFillMoonStarsFill} from 'react-icons/bs';
 import {AiFillTwitterCircle, AiFillLinkedin, AiFillYoutube} from 'react-icons/ai'
 import Image from "next/image";
 import deved from '../public/dev-ed-wave.png';
+import memoji from '../public/memojiavatar.jpeg';
 import design from '../public/design.png';
 import code from '../public/code.png';
 import consulting from '../public/consulting.png';
@@ -50,7 +51,7 @@ export default function Home() {
             <AiFillYoutube />
           </div>
           <div className='relative mx-auto bg-gradient-to-b from-blue-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96'>
-            <Image src={deved}  layout='fill' objectFit="cover"/>
+            <Image src={memoji}  layout='fill' objectFit="cover"/>
           </div>
         </section>
         
@@ -90,7 +91,7 @@ export default function Home() {
           <div>
             <h3 className='text-3xl py-1'> Portfolio </h3>
             <p className='text-md py-2 leading-8 text-gray-800'>
-             Hiiiii
+             Here are some projects that I have worked on over the past few years
             </p>
           </div>
           <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
