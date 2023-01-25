@@ -72,18 +72,22 @@ export default function Home() {
               <p className='text-gray-800 py-1'> Figma </p>
             </div>
             <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white'>
-              <Image className='mx-auto' src={design} width="100" height="100"></Image>
-              <h3 className='text-lg font-medium pt-8 pb-2'> Designs</h3>
-              <p className="py-2"> Creating minimal designs</p>
-              <h4 className="py-4 text-blue-500"> Design tools I use</h4>
-              <p className='text-gray-800 py-1'> Figma </p>
+              <Image className='mx-auto' src={code} width="100" height="100"></Image>
+              <h3 className='text-lg font-medium pt-8 pb-2'> Code </h3>
+              <p className="py-2"> Creating applications </p>
+              <h4 className="py-4 text-blue-500"> Programming languages I learned</h4>
+              <p className='text-gray-800 py-1'> Java </p>
+              <p className='text-gray-800 py-1'> Python </p>
+              <p className='text-gray-800 py-1'> Javascript </p>
+              <p className='text-gray-800 py-1'> C </p>
             </div>
             <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white'>
-            <Image className='mx-auto' src={design} width="100" height="100"></Image>
-              <h3 className='text-lg font-medium pt-8 pb-2'> Designs</h3>
-              <p className="py-2"> Creating minimal designs</p>
-              <h4 className="py-4 text-blue-500"> Design tools I use</h4>
-              <p className='text-gray-800 py-1'> Figma </p>
+            <Image className='mx-auto' src={consulting} width="100" height="100"></Image>
+              <h3 className='text-lg font-medium pt-8 pb-2'> Analysis </h3>
+              <p className="py-2"> Using visuals and current data to interpret information </p>
+              <h4 className="py-4 text-blue-500"> Tools I use</h4>
+              <p className='text-gray-800 py-1'> SQL </p>
+              <p className='text-gray-800 py-1'> PowerBI </p>
             </div>
           </div>
         </section>
