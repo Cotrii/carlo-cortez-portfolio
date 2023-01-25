@@ -1,9 +1,9 @@
 import Head from 'next/head'
 import {BsFillMoonStarsFill} from 'react-icons/bs';
-import {AiFillTwitterCircle, AiFillLinkedin, AiFillYoutube} from 'react-icons/ai'
+import {AiFillGithub, AiFillLinkedin, AiFillYoutube} from 'react-icons/ai'
 import Image from "next/image";
 import deved from '../public/dev-ed-wave.png';
-import memoji from '../public/memojiavatar.jpeg';
+import memoji from '../public/memoji.png';
 import design from '../public/design.png';
 import code from '../public/code.png';
 import consulting from '../public/consulting.png';
@@ -52,21 +52,25 @@ export default function Home() {
             <p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto dark:text-white'> A student that creates projects related to programming and UI design</p>
           </div>
           <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600'>
-            <AiFillTwitterCircle  />
+            <a href="https://github.com/Cotrii">
+              <AiFillGithub />
+            </a>
             
             <a href="https://www.linkedin.com/in/carlo-miguel-cortez-27454a1a7/">
-             <AiFillLinkedin>  </AiFillLinkedin>
+             <AiFillLinkedin/>
             </a>
-            <AiFillYoutube />
+            <a href="https://github.com/carlocortez">
+              <AiFillGithub />
+            </a>
           </div>
           <div className='relative mx-auto bg-gradient-to-b from-blue-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96'>
             <Image src={memoji}  layout='fill' objectFit="cover"/>
           </div>
         </section>
         
-        <section className='dark:text-white'>
+        <section>
           <div>
-            <h3 className="text-3xl py-1">Services I offer</h3>
+            <h3 className="text-3xl py-1 dark:text-white">Services I offer</h3>
             <p className='text-md py-2 leading-8 text-gray-800 dark:text-white'>
               Since the beginning of my journey as a student developer, I have done multiple projects related to
               <span className='text-blue-500'> web development</span>  and <span className='text-blue-500'>UX Design</span> 
@@ -77,14 +81,14 @@ export default function Home() {
               <Image className='mx-auto' src={design} width="100" height="100"></Image>
               <h3 className='text-lg font-medium pt-8 pb-2'> Designs</h3>
               <p className="py-2"> Creating minimal designs</p>
-              <h4 className="py-4 text-blue-500"> Design tools I use</h4>
+              <h4 className="py-4 text-blue-500"> Design tools used</h4>
               <p className='text-gray-800 py-1'> Figma </p>
             </div>
             <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white'>
               <Image className='mx-auto' src={code} width="100" height="100"></Image>
               <h3 className='text-lg font-medium pt-8 pb-2'> Code </h3>
               <p className="py-2"> Creating applications </p>
-              <h4 className="py-4 text-blue-500"> Programming languages I learned</h4>
+              <h4 className="py-4 text-blue-500"> Programming languages learned</h4>
               <p className='text-gray-800 py-1'> Java </p>
               <p className='text-gray-800 py-1'> Python </p>
               <p className='text-gray-800 py-1'> Javascript </p>
@@ -93,8 +97,8 @@ export default function Home() {
             <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white'>
             <Image className='mx-auto' src={consulting} width="100" height="100"></Image>
               <h3 className='text-lg font-medium pt-8 pb-2'> Analysis </h3>
-              <p className="py-2"> Using visuals and current data to interpret information </p>
-              <h4 className="py-4 text-blue-500"> Tools I use</h4>
+              <p className="py-2"> Displaying visuals and tables </p>
+              <h4 className="py-4 text-blue-500"> Tools used</h4>
               <p className='text-gray-800 py-1'> SQL </p>
               <p className='text-gray-800 py-1'> PowerBI </p>
             </div>
@@ -104,7 +108,7 @@ export default function Home() {
           <div>
             <h3 className='text-3xl py-1 dark:text-white'> Portfolio </h3>
             <p className='text-md py-2 leading-8 text-gray-800 dark:text-white'>
-             Here are some projects that I have worked on over the past few years
+             Here are some projects that I have worked on over the past few years.
             </p>
           </div>
           <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
