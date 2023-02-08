@@ -60,7 +60,7 @@ export default function Home() {
              <AiFillLinkedin/>
             </a>
             <a href="https://github.com/carlocortez">
-              <AiFillGithub />
+              <AiFillGithub color='green' />
             </a>
           </div>
           <div className='relative mx-auto bg-gradient-to-b from-blue-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96'>
@@ -70,7 +70,7 @@ export default function Home() {
         
         <section>
           <div>
-            <h3 className="text-3xl py-1 dark:text-white">Services I offer</h3>
+            <h3 className="text-3xl py-2 dark:text-white">Services I offer</h3>
             <p className='text-md py-2 leading-8 text-gray-800 dark:text-white'>
               Since the beginning of my journey as a student developer, I have done multiple projects related to
               <span className='text-blue-500'> web development</span>  and <span className='text-blue-500'>UX Design</span> 
@@ -109,6 +109,8 @@ export default function Home() {
             <h3 className='text-3xl py-1 dark:text-white'> Portfolio </h3>
             <p className='text-md py-2 leading-8 text-gray-800 dark:text-white'>
              Here are some projects that I have worked on over the past few years.
+             The first portion are related to UX/UI Design coming from design challenges
+             or case studies. One of the projects here was translated into code as it was just a simple UI.
             </p>
           </div>
           <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
@@ -116,6 +118,16 @@ export default function Home() {
             <div className='basis-1/3 flex-1'><Image src={proj2} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive"/></div>
             <div className='basis-1/3 flex-1'><Image src={proj3} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive"/></div>
             <div className='basis-1/3 flex-1'><Image src={proj4} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive"/></div>
+          </div>
+          <div>
+            <h3 className='text-3xl py-1 dark:text-white'> Programming Projects </h3>
+            <p className='text-md py-2 leading-8 text-gray-800 dark:text-white'>
+             Related to web-programming, here are my two most recent projects. PCGuro's goal was to create a community forum on local shops
+             here in the Philippines, so that we can avoid using websites like PCPartPicker for prices and builds. The other project was a case study related to inventory
+             management for a company. 
+            </p>
+          </div>
+          <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
             <div className='basis-1/3 flex-1'><Image src={proj5} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive"/></div>
             <div className='basis-1/3 flex-1'><Image src={proj6} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive"/></div>
           </div>
