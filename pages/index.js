@@ -122,7 +122,7 @@ export default function Home() {
           <div>
             <h3 className='text-3xl py-1 dark:text-white'> Programming Projects </h3>
             <p className='text-md py-2 leading-8 text-gray-800 dark:text-white'>
-             Related to web-programming, here are my two most recent projects. PCGuro's goal was to create a community forum on local shops
+             Related to web-programming, here are my two most recent projects. PCGuro&rsquo;s goal was to create a community forum on local shops
              here in the Philippines, so that we can avoid using websites like PCPartPicker for prices and builds. The other project was a case study related to inventory
              management for a company. 
             </p>
