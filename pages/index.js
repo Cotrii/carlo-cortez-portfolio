@@ -21,6 +21,9 @@ import proj5 from "../public/proj5.jpeg";
 import proj6 from "../public/proj6.png";
 import {useState} from "react"
 
+import Link from 'next/link'
+
+
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
   return (
@@ -42,6 +45,8 @@ export default function Home() {
                   className='cursor-pointer text-2xl'/>
               </li>
               <li>
+                <Link href="/about" className="bg-gradient-to-r from-sky-400 to-blue-500 text-white px-4 py-2 rounded-md ml-8"> About Me </Link>
+
                 <a className="bg-gradient-to-r from-sky-400 to-blue-500 text-white px-4 py-2 rounded-md ml-8" href="#">Resume</a>
               </li>
             </ul>
