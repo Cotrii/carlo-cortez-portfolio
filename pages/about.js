@@ -39,8 +39,9 @@ export default function About() {
                 follow.
 
                 <div className='my-5'> 
-                  When I am not on my desk/computer, I usually spend my time reading books that pique my 
-                  interest, building plastic models, and playing different instruments.
+                For extracurricular activities, I am presently holding a position in a student organization.
+                When I am not on my desk/computer, I usually spend my time reading books that pique my 
+                interest, building plastic models, and playing different instruments.
                   
                 </div>
             </div>
