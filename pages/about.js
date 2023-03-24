@@ -21,7 +21,7 @@ export default function About() {
               <li>
                 <Link href="/about" className="bg-gradient-to-r from-sky-400 to-blue-500 text-white px-4 py-2 rounded-md ml-8"> About Me </Link>
 
-                <a className="bg-gradient-to-r from-sky-400 to-blue-500 text-white px-4 py-2 rounded-md ml-8" href="/">Resume</a>
+                <Link className="bg-gradient-to-r from-sky-400 to-blue-500 text-white px-4 py-2 rounded-md ml-8" href="/">Resume</Link>
               </li>
             </ul>
           </nav>
@@ -39,8 +39,9 @@ export default function About() {
                 follow.
 
                 <div className='my-5'> 
-                  When I am not on my desk/computer, I usually spend my time reading books that pique my 
-                  interest, building plastic models, and playing different instruments.
+                For extracurricular activities, I am presently holding a position in a student organization.
+                When I am not on my desk/computer, I usually spend my time reading books that pique my 
+                interest, building plastic models, and playing different instruments.
                   
                 </div>
             </div>
