@@ -22,12 +22,12 @@ export default function About() {
             <ul className="flex items-center">
               <li>
                   <Link href="/about" 
-                        className="bg-gradient-to-r from-sky-400 to-blue-500 text-white px-2 py-2 rounded-md ml-5"> 
+                        className="bg-gradient-to-r from-sky-500 to-blue-500 text-white px-2 py-2 rounded-md ml-5"> 
                         About
                   </Link>
                 </li>
                 <li>
-                <Link className="bg-gradient-to-r from-sky-400 to-blue-500 text-white px-2 py-2 rounded-md ml-5" 
+                <Link className="bg-gradient-to-r from-sky-500 to-blue-500 text-white px-2 py-2 rounded-md ml-5" 
                         href="https://drive.google.com/file/d/1Rqenhch-imU5_QvPmgIGj3d7ZGwnviQ8/view?usp=sharing">
                         Resume
                 </Link>
