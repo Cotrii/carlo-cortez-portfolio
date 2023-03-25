@@ -16,19 +16,28 @@ export default function About() {
           
           <main className="bg-white px-10 md:px-20 lg:px-40 dark:bg-gray-900">
           <nav className="py-10 mb-12 flex justify-between ">
-            <h1 className="text-xl font-burtons dark:text-white">My Portfolio</h1>
+          <Link href="/">
+              <h1 className="text-xl font-burtons dark:text-white">Carlo Cortez</h1> 
+          </Link>
             <ul className="flex items-center">
               <li>
-                <Link href="/about" className="bg-gradient-to-r from-sky-400 to-blue-500 text-white px-4 py-2 rounded-md ml-8"> About Me </Link>
-
-                <Link className="bg-gradient-to-r from-sky-400 to-blue-500 text-white px-4 py-2 rounded-md ml-8" href="/">Resume</Link>
+                  <Link href="/about" 
+                        className="bg-gradient-to-r from-sky-400 to-blue-500 text-white px-2 py-2 rounded-md ml-5"> 
+                        About
+                  </Link>
+                </li>
+                <li>
+                <Link className="bg-gradient-to-r from-sky-400 to-blue-500 text-white px-2 py-2 rounded-md ml-5" 
+                        href="https://drive.google.com/file/d/1Rqenhch-imU5_QvPmgIGj3d7ZGwnviQ8/view?usp=sharing">
+                        Resume
+                </Link>
               </li>
             </ul>
           </nav>
 
           <div className='text-center p-10 dark:text-white'>
                 <h2 className="text-5xl py-2 text-blue-500 font-medium md:text-6xl"> 
-                    About Myself
+                    About Me
                 </h2>
             </div>
 

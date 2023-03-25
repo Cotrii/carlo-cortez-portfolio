@@ -2,7 +2,6 @@ import Head from 'next/head'
 import {BsFillMoonStarsFill} from 'react-icons/bs';
 import {AiFillGithub, AiFillLinkedin, AiFillYoutube} from 'react-icons/ai'
 import Image from "next/image";
-import deved from '../public/dev-ed-wave.png';
 import memoji from '../public/memoji.png';
 import design from '../public/design.png';
 import code from '../public/code.png';
@@ -38,16 +37,25 @@ export default function Home() {
       <main className="bg-white px-10 md:px-20 lg:px-40 dark:bg-gray-900">
         <section className="min-h-screen">
           <nav className="py-10 mb-12 flex justify-between ">
-            <h1 className="text-xl font-burtons dark:text-white">My Portfolio</h1>
+            <Link href="/">
+              <h1 className="text-xl font-burtons dark:text-white">Carlo Cortez</h1> 
+            </Link>
             <ul className="flex items-center">
               <li>
                 <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)}
                   className='cursor-pointer text-2xl'/>
               </li>
               <li>
-                <Link href="/about" className="bg-gradient-to-r from-sky-400 to-blue-500 text-white px-4 py-2 rounded-md ml-8"> About Me </Link>
-
-                <a className="bg-gradient-to-r from-sky-400 to-blue-500 text-white px-4 py-2 rounded-md ml-8" href="#">Resume</a>
+                <Link href="/about" 
+                      className="bg-gradient-to-r from-sky-400 to-blue-500 text-white px-2 py-2 rounded-md ml-5"> 
+                      About
+                </Link>
+              </li>
+              <li>
+              <Link className="bg-gradient-to-r from-sky-400 to-blue-500 text-white px-2 py-2 rounded-md ml-5" 
+                      href="https://drive.google.com/file/d/1Rqenhch-imU5_QvPmgIGj3d7ZGwnviQ8/view?usp=sharing">
+                      Resume
+                </Link>
               </li>
             </ul>
           </nav>
@@ -68,7 +76,7 @@ export default function Home() {
               <AiFillGithub color='green' />
             </a>
           </div>
-          <div className='relative mx-auto bg-gradient-to-b from-blue-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96'>
+          <div className='relative mx-auto bg-gradient-to-b from-blue-300 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96'>
             <Image src={memoji}  layout='fill' objectFit="cover"/>
           </div>
         </section>
