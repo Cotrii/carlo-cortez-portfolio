@@ -18,6 +18,10 @@ import proj3 from "../public/proj3.png";
 import proj4 from "../public/proj4.jpeg";
 import proj5 from "../public/proj5.jpeg";
 import proj6 from "../public/proj6.png";
+import new1 from "../public/new1.png";
+import epawn from  "../public/epawn.png";
+import gunplafinds from "../public/gunplafinds.png";
+
 import {useState} from "react"
 
 import Link from 'next/link'
@@ -145,6 +149,11 @@ export default function Home() {
               <Image src={proj4} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive"/>
               </Link>
             </div>
+            <div className='basis-1/3 flex-1'>
+              <Link href="">
+              <Image src={new1} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive"/>
+              </Link>
+            </div>
           </div>
           <div>
             <h3 className='text-3xl py-1 dark:text-white'> Programming Projects </h3>
@@ -163,6 +172,16 @@ export default function Home() {
             <div className='basis-1/3 flex-1'>
               <Link href="https://milaor-inventory-system.vercel.app/">
               <Image src={proj6} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive"/>
+              </Link>
+            </div>
+            <div className='basis-1/3 flex-1'>
+              <Link href="https://github.com/Hideki-Kawachi/epawn">
+              <Image src={epawn} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive"/>
+              </Link>
+            </div>
+            <div className='basis-1/3 flex-1'>
+              <Link href="https://github.com/Cotrii/Gunpla-Machine-Project">
+              <Image src={gunplafinds} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive"/>
               </Link>
             </div>
           </div>
