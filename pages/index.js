@@ -150,7 +150,7 @@ export default function Home() {
               </Link>
             </div>
             <div className='basis-1/3 flex-1'>
-              <Link href="">
+              <Link href="https://www.figma.com/proto/tiKN0hKD354MFydXOEFfvp/Cortez---%5BIndCase%5D-Input-and-UI-Design?type=design&node-id=1-3&scaling=scale-down&page-id=0%3A1">
               <Image src={new1} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive"/>
               </Link>
             </div>
