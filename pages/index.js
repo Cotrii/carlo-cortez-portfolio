@@ -130,9 +130,21 @@ export default function Home() {
               <Image src={proj1} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive"/>
               </Link>
             </div>
-            <div className='basis-1/3 flex-1'><Image src={proj2} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive"/></div>
-            <div className='basis-1/3 flex-1'><Image src={proj3} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive"/></div>
-            <div className='basis-1/3 flex-1'><Image src={proj4} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive"/></div>
+            <div className='basis-1/3 flex-1'>
+              <Link href="https://www.figma.com/proto/PPjxxjJUDfk3dU5vVo1Uum/Calculator?type=design&node-id=1-49&scaling=scale-down&page-id=0%3A1">
+              <Image src={proj2} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive"/>
+              </Link>
+            </div>
+            <div className='basis-1/3 flex-1'>
+              <Link href="https://www.figma.com/proto/LiE7YJKPNb9yz9YrprbiCs/Hi-fi-Wireframe?type=design&node-id=145-11743&scaling=min-zoom&page-id=128%3A5079&starting-point-node-id=145%3A11743">
+              <Image src={proj3} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive"/>
+              </Link>
+            </div>
+            <div className='basis-1/3 flex-1'>
+              <Link href="https://www.figma.com/proto/zvwVsMTMkMrmeaph4nkOyh/Untitled?type=design&node-id=107-9&scaling=scale-down&page-id=0%3A1&starting-point-node-id=107%3A9&show-proto-sidebar=1">
+              <Image src={proj4} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive"/>
+              </Link>
+            </div>
           </div>
           <div>
             <h3 className='text-3xl py-1 dark:text-white'> Programming Projects </h3>
@@ -142,8 +154,17 @@ export default function Home() {
             </p>
           </div>
           <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
-            <div className='basis-1/3 flex-1'><Image src={proj5} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive"/></div>
-            <div className='basis-1/3 flex-1'><Image src={proj6} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive"/></div>
+            
+            <div className='basis-1/3 flex-1'>
+              <Link href="https://pcguro.vercel.app/">
+              <Image src={proj5} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive"/>
+              </Link>
+            </div>
+            <div className='basis-1/3 flex-1'>
+              <Link href="https://milaor-inventory-system.vercel.app/">
+              <Image src={proj6} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive"/>
+              </Link>
+            </div>
           </div>
         </section>
       </main>
